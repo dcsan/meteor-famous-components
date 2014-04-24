@@ -33,7 +33,7 @@ Meteor.startup ->
 
 
 Template.grid2.items = -> 
-	return [
-		{ name: 'a'	},
-		{ name: 'b'	},
-	]
+	Items.find()
+
+Template.grid2.gridDimen = ->
+	return [4,4]
