@@ -4,9 +4,17 @@ template(name='gridMenu')
 
 	ul
 		li
-			a(href='/grid1') grid1 - jade
+			a(href='/scroll0') /scroll0 
+			| scrollview basic test for 'control'
 		li
-			a(href='/grid2') grid2 - spacebars
+			a(href='/scroll1') /scroll1 
+			| scrollview using jade
+		li
+			a(href='/grid0') grid0
+			| spacebars
+		li
+			a(href='/grid1') grid1 
+			| using - jade
 
 	//- +famous(view='Scrollview') -//
 		p one

@@ -1,5 +1,5 @@
-<template name="grid2">
-    {{#famous view='GridLayout' size="undefined,undefined" dimensions=gridDimen items=items }}
+<template name="grid0">
+    {{#famous view='GridLayout' size="undefined,undefined" dimensions=gridDimen items=getItems }}
         {{#famousEach data=../items size="undefined,100"}}
             <div class="listItem">{{name}}</div>
         {{/famousEach}}

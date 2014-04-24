@@ -24,10 +24,14 @@ Router.map ->
 
 	@route "gridMenu",
 		path: "/gridMenu"
+	@route "scroll0",
+		path: "/scroll0"
+	@route "scroll1",
+		path: "/scroll1"
+	@route "grid0",
+		path: "/grid0"
 	@route "grid1",
 		path: "/grid1"
-	@route "grid2",
-		path: "/grid2"
 
 	@route "columns"
 	return
