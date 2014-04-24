@@ -35,6 +35,5 @@ Meteor.startup ->
 UI.registerHelper 'getItems', ->
 	Items.find()
 
-
-Template.grid2.gridDimen = ->
+UI.registerHelper 'gridDimen', ->
 	return [4,4]

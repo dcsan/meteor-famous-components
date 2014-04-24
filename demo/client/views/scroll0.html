@@ -1,5 +1,9 @@
 <template name="scroll0">
-    {{#famous view='Scrollview'}}
-    	<p>Some content</p>
-    {{/famous}}
+
+	{{#famous view='Scrollview' size="undefined,undefined" items=getItems }}
+		{{#famousEach data=../items size="undefined,50"}}
+			<div class="listItem">{{name}}</div>
+		{{/famousEach}}
+	{{/famous}}
+
 </template>
