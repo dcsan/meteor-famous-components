@@ -1,4 +1,9 @@
 {
+  "meteor": {
+    "branch": "devel",
+    "git": "https://github.com/meteor/meteor.git"
+  },
+  
   "packages": {
     "famono": {
       "_git": "https://github.com/raix/Meteor-famono.git"
@@ -6,8 +11,12 @@
     "famous-components": {
       "path": ".."
     },
+    "jade": {
+      "git": "https://github.com/mquandalle/meteor-jade.git",
+      "branch": "master"
+    },
+
     "iron-router": {},
-    "bootstrap-3": {},
-    "jade": {}
+    "bootstrap-3": {}
   }
 }
